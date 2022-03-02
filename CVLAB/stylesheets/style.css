@@ -1,7 +1,6 @@
 
 .primary{
-    color:rgb(34, 126, 133);
-    
+    color:rgb(33, 112, 117);
 }
 
 .container{
@@ -41,6 +40,136 @@
     padding: 0 5px;
 }
 
-a {
-    text-decoration: none;
+.experience-block h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:rgb(211, 222, 223);
+    background-color: rgb(27, 93, 95);
+}
+
+.experience-item h4{
+    text-indent: 30px;
+}
+
+.secondary{
+    color:rgb(95, 165, 161);
+    font-family: 'Hubballi', cursive;
+    font-size: 18px;
+}
+
+.title{
+    font-size: 24px
+}
+
+.education-block h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:rgb(211, 222, 223);
+    background-color: rgb(27, 93, 95);
+}
+
+.education-item{
+    display: flex;
+    align-items: center;
+    width: 33.3333%;
+}
+
+.education-item .logo{
+    width: 20%
+}
+
+.education-item .logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.education-item ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.education-item ul :nth-child(1) {
+    color:rgb(95, 165, 161);
+    font-family: 'Hubballi', cursive;
+}
+
+.education-item ul :nth-child(2) {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.education-item ul :nth-child(3) {
+    color:rgb(16, 82, 88)
+}
+
+.others-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.others-block h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color:rgb(15, 73, 78);
+    background-color: rgb(172, 199, 201);
+}
+
+.skills {
+    padding-right: 5px;
+}
+
+.languages {
+    padding-left: 5px;
+}
+
+.others-block>div {
+    width: 50%;
+}
+
+.others-block>* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 37px;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(124, 167, 170);
+}
+
+h3{
+    font-family: 'Kiwi Maru', serif;
+}
+
+h4{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+}
+
+.skills ul{
+    font-family: 'Hubballi', cursive;
+    
+}
+
+.languages ul{
+    font-family: 'Hubballi', cursive;
+    
+}
+
+.location b{
+    font-family: 'Hubballi', cursive;
+    font-size: 18px;
+}
+
+*{
+    font-family: 'Noto Sans TC', sans-serif;
 }
