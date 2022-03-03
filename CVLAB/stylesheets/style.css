@@ -173,3 +173,36 @@ h4{
 *{
     font-family: 'Noto Sans TC', sans-serif;
 }
+
+@media screen and (max-width: 920px) {
+    .avatar,
+    .avatar>img {
+        width: 100%;
+    }
+
+    .intro-block .content {
+        width: 100%;
+    }
+
+    .intro-block>.row {
+        flex-direction: colume;
+    }
+
+    .avatar {
+        max-width: 150px;
+    }
+
+    .education-item {
+        width: 50%;
+    }
+
+
+@media screen and (max-width: 600px) {
+    .education-item {
+        width: 100%
+    }
+
+    .others-block>div {
+    width: 100%;
+    }
+}
